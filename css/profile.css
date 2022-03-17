@@ -1,0 +1,224 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .logindb{
+      margin-left: 15px;
+      font-size: 20px;
+      color: black;
+      font-weight:normal;
+  }
+  .styleprofile{
+
+      margin: 100px auto;
+      max-width: 1400px;
+  }
+  .header{
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .nav{
+      display: flex;
+      align-items: center;
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+  }
+  .nav-item{
+      margin-left: 32px;
+  }
+  .nav-link{
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      color: black;
+  }
+  .nav-link--profile{
+      font-weight: 500;
+      text-decoration: none;
+      color:black
+  }
+  .nav-link--store{
+      font-weight: 500;
+      text-decoration: none;
+      color:black
+  }
+  .wrapper{
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  .inform{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .main{
+      display: flex;
+      align-items: center;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding-right: 15px;
+      padding-left: 15px; 
+  }
+  .main-text-title{
+      margin-top: 194px;
+      font-size: 72px;
+      font-family: 'Roboto', sans-serif;
+  }
+  .main-text-dar{
+    
+      font-size: 48px;
+      font-family: 'Roboto', sans-serif;
+  }
+  .main-img_image{
+      width: 100%;
+  }
+  .main-text-dar_link{
+  
+      border-radius: 30px;
+      border:solid 2px;
+      background-color: #FF0F00;
+      padding: 14px 32px;
+      text-decoration: none;
+      color:white;
+  }
+  .bguser{
+    display: flex;
+    max-width: 1400px;
+    margin: -50px auto;
+  }
+  .lc2{ /*/Личные данные текст /*/
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    max-width: 1400px;
+    
+}
+.hi2{
+    margin-left: 15px;
+    font-size: 28px;
+    color:#d62222;
+    font-weight: bold;
+}
+  .nav-link--profile{
+      border-radius: 30px;
+      border:solid 2px;
+      background-color: #FF0F00;
+      padding: 14px 32px;
+      text-decoration: none;
+      color:white;
+  }
+  .LC{
+      font-size: 64px;
+      font-weight: 700;
+      margin: 38 auto;
+  }
+
+.userprofile{
+    font-size: 24px;
+    margin: 139px auto;
+    font-weight: 400;
+}
+
+.infouser{
+    border-color: #FF0F00;
+    max-width: 1400px;
+    margin: 120px auto;
+}
+
+.editinfo{
+    margin-left: 20px;
+    border-radius: 30px;
+    border:solid 2px;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    border-color: #FF0F00;
+}
+.maintext{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-profile{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-contact{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-infrom{
+    margin: 0 auto  ;
+}
+.contactmenu{
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+
+}
+.profile{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.bwal{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.storetext{
+    text-decoration: none;
+    font-size: 32px;
+    padding-left: 150px;
+    color: #d8d8d8;
+    padding-top: 80px;
+    font-weight: 700;
+}
+.borderblock{
+    display: flex;
+    margin-top: 150px;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    border:solid 2px;
+    background-image: url(/img/lineuser.png);
+    background-size: cover;
+    border-color: #d8d8d8;
+}
+.usermenu{
+    font-size: 24px;
+    font-weight: 400px;
+    display: flexbox;
+}
+.storeend{
+    color: #444444;
+    font-size: 20px;
+}
+.emailcontact{
+    
+    color: #444444;
+    font-size: 20px;
+}
+.namecontact{
+    color: #444444;
+    font-size: 20px;
+}
+.phonecontact{
+    font-size: 20px;
+    color: #444444;   
+}

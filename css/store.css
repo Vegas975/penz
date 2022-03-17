@@ -1,0 +1,54 @@
+.marginshop{
+    padding-top: 100px;
+}
+.shopmargin{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.imgcart{
+    width: 300px;
+    height: 400px;
+}
+.shoptext{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+.infotext{
+    max-width: 300px;
+    font-size: 12px;
+    color: rgb(124, 124, 124);
+}
+.shopbutton{
+display: flex;
+margin-left: 1px;
+}
+.cashtext{
+    padding-right: 15px;
+}
+.shoptextbutton:hover{
+    background-color: rgb(90, 209, 90);
+    border-color: rgb(90, 209, 90);
+}
+.shoptextbutton{
+    border-radius: 30px;
+    border:solid 2px;
+    border-color: #FF0F00;
+    background-color: #FF0F00;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-weight:400;
+    padding: 5px 5px;
+    height: 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+}
+.storecart{
+    max-width: 600px;
+    padding-left: 100px;
+
+}

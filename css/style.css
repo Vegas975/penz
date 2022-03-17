@@ -1,0 +1,355 @@
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+.header{
+    max-width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line{
+  max-width: 1400px;
+  margin: 0 auto;
+ align-items: center;
+ display: flex;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+.nav-item{
+    margin-left: 32px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+.nav-link--profile{
+    font-weight: 500;
+    text-decoration: none;
+    color:black
+}
+.nav-link--store{
+    font-weight: 500;
+    text-decoration: none;
+    color:black
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.main{
+  margin: 0 auto;
+  max-width: 1400px;
+
+}
+.main-text{
+    display: inline-block;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px; 
+}
+.main-text-title{
+  margin-top: 120px;
+   color: #ffffff;
+    font-size: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-text-dar{
+    color: #fff;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+.main-img_image{
+    width: 100%;
+}
+.main-text-dar_link{
+
+    border-radius: 30px;
+    border:solid 2px;
+    border-color: #FF0F00;
+    background-color: #FF0F00;
+    padding: 14px 32px;
+    text-decoration: none;
+    color:white;
+}
+.nav-link--profile{
+    border-radius: 30px;
+    border:solid 2px;
+    background-color: #FF0F00;
+    border-color: #FF0F00;
+    padding: 14px 32px;
+    text-decoration: none;
+    color:white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.bgcataloge{
+  background-image: url(/img/bgstore2.png);
+  background-size: cover;
+}
+.action {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background: rgb(209, 16, 16);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+.action span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2em;
+  transition: .3s ease-in-out;
+}
+.action.active span  {
+  transform: rotate(135deg);
+}
+
+.action ul {
+  position: absolute;
+  bottom: 55px;
+  background: #fff;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.action.active ul {
+  bottom: 65px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s;
+}
+.action ul li {
+  list-style:none;
+   text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.action ul li:hover {
+  font-weight: 600;
+}
+.action ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.action ul li img {
+  margin-right: 15px;
+  opacity: .2;
+  transform: scale(.7);
+}
+.action ul li:hover img {  
+  opacity: .8;
+  transform: scale(1.0);
+}
+/*/ конец кнопки /*/
+.cataloge-text{
+    border-radius: 0px 30px 30px 30px;
+    font-size: 18px;
+    border:solid 2px;
+    background-color: #FF0F00;
+    padding: 15px 10px;
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    margin: 65px;
+    margin-left: 30px;
+}
+.maincataloge{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*/ Один блок товара/*/
+.cataloge{
+  margin-top: 150px;
+}
+.shop{
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+.store{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+}
+.boxerstore{
+    max-width: 1400px;
+    width: 360px;
+    height: 485px;
+    left: 245px;
+    top: 1581px;
+    background: #ffffff9f;
+    box-shadow: 2px 0px 5px rgb(73, 73, 73);
+    border-radius: 10px;    
+    }
+.boxerstore-text{
+    font-size: 36px;
+    padding-left: 40px;
+
+}
+.img-store-info{
+    padding-left: 80px;
+    margin-top: 20px;
+
+}
+.text-store{
+    text-align: center;
+    font-size: 13px;
+}
+.bottonstore{
+    bottom: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgb(209, 16, 16);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.bottonstore span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 2em;
+    transition: .3s ease-in-out;
+  }
+  .bottonstore.active span  {
+    transform: rotate(135deg);
+  }
+.bottonstore h1{
+    padding-left: 60px;
+    margin-top: -45px;
+}
+.bottonstore p{
+    padding-left: 140px;
+    margin-top: -45px;
+    font-size: 18px;
+}
+.grap{
+  margin-top: 100px;
+  height: 600px;
+  background-image: url(/img/backgorund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/*/================================= STORE /*/
+.marginshop{
+  padding-top: 100px;
+}
+.shopmargin{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcart{
+  width: 300px;
+  height: 400px;
+}
+.shoptext{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:600;
+}
+.infotext{
+  max-width: 300px;
+  font-size: 12px;
+  color: rgb(124, 124, 124);
+}
+.shopbutton{
+display: flex;
+margin-left: 1px;
+}
+.cashtext{
+  padding-right: 15px;
+}
+.shoptextbutton:hover{
+  background-color: rgb(90, 209, 90);
+  border-color: rgb(90, 209, 90);
+}
+.shoptextbutton{
+  border-radius: 30px;
+  border:solid 2px;
+  border-color: #FF0F00;
+  background-color: #FF0F00;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-weight:400;
+  padding: 5px 5px;
+  height: 15px;
+  text-decoration: none;
+  font-size: 15px;
+  color:white;
+}
+.storecart{
+  max-width: 600px;
+  padding-left: 100px;
+
+}
+/*/ ===================== ABOUT =============== /*/ 
+.bgabout{
+  margin-top: 250px;
+  background-image: url(/img/largus.png);
+  height: 1000px;
+  background-size: cover;
+}
+.bgtext{
+  margin: 0 auto;
+  display: flexbox;
+  max-width: 1400px;
+  padding-top: 15px;
+  display: flexbox;
+}
+.hitext{
+  font-size: 62px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+.abouttext{
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
+.about{
+  border: solid 2px #e74949;
+  background-color: #e74949;
+  padding: 30px 30px;
+  border-radius: 0px 30px 30px 30px;
+  text-align:justify;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}

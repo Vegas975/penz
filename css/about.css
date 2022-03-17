@@ -1,0 +1,31 @@
+.bgabout{
+    margin-top: 250px;
+    background-image: url(/img/largus.png);
+    height: 1000px;
+    background-size: cover;
+}
+.bgtext{
+    margin: 0 auto;
+    display: flexbox;
+    max-width: 1400px;
+    padding-top: 15px;
+    display: flexbox;
+}
+.hitext{
+    font-size: 62px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.abouttext{
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+}
+.about{
+    border: solid 2px #e74949;
+    background-color: #e74949;
+    padding: 30px 30px;
+    border-radius: 0px 30px 30px 30px;
+    text-align:justify;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
